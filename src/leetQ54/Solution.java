@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * The solution of python only one line
+ * def spiralOrder(self, matrix):
+ *     return matrix and [*matrix.pop(0)] + self.spiralOrder([*zip(*matrix)][::-1])
+ */
+
+/**
  * Created by zhangzhongwen on 2019/1/9
  */
 public class Solution {
